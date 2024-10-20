@@ -1,0 +1,358 @@
+* {
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #000; */
+}
+
+header {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    height: 43rem;
+    width: 100%;
+    /* opacity: 0.7; */
+    /* border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px; */
+}
+
+.upper-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.corner-options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 37.5rem;
+    margin-top: 25px;
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+#lang-icon {
+    font-size: 2.3rem;
+    /* margin-bottom: 10px; */
+    margin-right: 10px;
+    color: white;
+}
+
+#lang-select {
+    padding-left: 12px;
+    height: 2rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+}
+
+.netflix-image img {
+    width: 9.5rem;
+    height: 3.2rem;
+    padding-left: 1.25rem;
+    margin-top: 2rem;
+    margin-left: 7rem;
+    margin-right: 6.25rem;
+}
+
+.sign-up button {
+    margin-left: 20px;
+    line-height: 2rem;
+    width: 80px;
+    margin-bottom: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.sign-up button:hover {
+    background-color: rgba(255, 0, 0, 0.767);
+    cursor: pointer;
+}
+
+.lower-section .info h1 {
+    color: white;
+    font-size: 3.7rem;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.lower-section .info h3 {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.4rem;
+}
+
+.lower-section .info p {
+    color: white;
+    text-align: center;
+    font-size: 1.09rem;
+    margin-top: 20px;
+}
+
+.email {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#first-email-box {
+    width: 320px;
+    margin-left: -2px;
+    padding-left: 0.625rem;
+    line-height: 40px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.26);
+}
+
+.email button {
+    line-height: 56px;
+    width: 200px;
+    /* margin-bottom: 2px; */
+    margin-top: 5px;
+    margin-left: 20px;
+    /* margin-right: 50px; */
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.email button:hover {
+    background-color: rgba(255, 0, 0, 0.767);
+    cursor: pointer;
+}
+
+/* #get-started {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 60px;
+} */
+
+main {
+    background-color: #000;
+}
+
+main .heading h2 {
+    /* margin-top: 20px; */
+    padding-top: 25px;
+    color: #fff;
+    margin-left: 100px;
+}
+
+.cards {
+    width: 81.5%;
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.card-area {
+    width: 170px;
+    height: 310px;
+    background-color: #fff;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.card-image img {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 280px;
+    width: 100%;
+}
+
+.card-info h3 {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: #000;
+    background-color: white;
+}
+
+.card-area:hover {
+    box-shadow: 2px 2px 20px white;
+    cursor: pointer;
+}
+
+.boxes {
+    width: 81.5%;
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.info-box {
+    width: 230px;
+    height: 300px;
+    background-color: rgba(78, 52, 150, 0.644);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin: 10px auto;
+    /* margin-right: 5px; */
+}
+
+.main-heading {
+    text-align: center;
+    padding: 30px;
+}
+
+.main-heading h3 {
+    /* line-height: 3rem; */
+    font-size: 1.5rem;
+}
+
+.para p {
+    color: rgba(255, 255, 255, 0.603);
+    text-align: center;
+    padding: 10px;
+}
+
+.icon {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2.5rem;
+    color: red;
+    /* position: absolute; */
+    /* bottom: 10px; */
+    /* margin-bottom: 0; */
+    /* top: 0px; */
+}
+
+.bars {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.info-bar {
+    width: 84%;
+    height: 80px;
+    background-color: rgba(59, 59, 59, 0.705);
+    color: white;
+    margin: 20px auto;
+    margin-bottom: 2px;
+    margin-left: 120px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+}
+
+.info-bar h2 {
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 22px;
+    padding-left: 20px;
+}
+
+.info-bar i {
+    margin-left: 880px;
+    font-size: 2rem;
+    margin-top: 22px;
+    justify-self: center;
+    /* align-self: center; */
+    margin-right: 15px;
+}
+
+.info-bar:hover {
+    background-color: rgb(59, 59, 59);
+    cursor: pointer;
+}
+
+.para1 {
+    color: #fff;
+    margin: 10px auto;
+    text-align: center;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding-left: 160px;
+    /* margin-left: 50px; */
+
+}
+
+.links {
+    margin-bottom: 20px;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.number {
+    margin-bottom: 50px;
+}
+
+.number span {
+    font-size: large;
+    color: rgba(160, 159, 159, 0.74);
+}
+
+.number span a {
+    color: rgba(160, 159, 159, 0.74);
+}
+
+.links ul li a {
+    color: rgba(160, 159, 159, 0.74);
+}
+
+.links ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    padding: 5px 0;
+}
+
+.language {
+    margin-bottom: 20px;
+}
+
+.language #lang-select {
+    font-size: small;
+}
+
+.language i {
+    font-size: small;
+}
+
+.last {
+    color: rgba(160, 159, 159, 0.74);
+}
